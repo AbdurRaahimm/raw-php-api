@@ -1,0 +1,102 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Raw PHP API",
+    "collectionId": "b0cd7caf-7907-4fa3-b73e-6a40c1927d56",
+    "dateExported": "2024-06-09T16:05:31.853Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "81e5dbdd-fde1-4251-8c08-cee0a40ac5e8",
+            "colId": "b0cd7caf-7907-4fa3-b73e-6a40c1927d56",
+            "containerId": "",
+            "name": "Get all data",
+            "url": "http://localhost:441/raw-php-api/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-09T13:39:02.262Z",
+            "modified": "2024-06-09T13:39:15.010Z",
+            "headers": []
+        },
+        {
+            "_id": "720c5ba0-b465-486b-bdc6-c9af1570fc19",
+            "colId": "b0cd7caf-7907-4fa3-b73e-6a40c1927d56",
+            "containerId": "",
+            "name": "Get data by id",
+            "url": "http://localhost:441/raw-php-api/?id=1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-09T13:39:42.560Z",
+            "modified": "2024-06-09T13:40:00.541Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "bcb7a144-e4cf-496d-b629-0a9c74dbe22b",
+            "colId": "b0cd7caf-7907-4fa3-b73e-6a40c1927d56",
+            "containerId": "",
+            "name": "Insert data",
+            "url": "http://localhost:441/raw-php-api/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-09T13:40:23.988Z",
+            "modified": "2024-06-09T14:46:36.971Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"name\": \"Nur Islam\",\r\n    \"city\": \"feni\",\r\n    \"salary\": \"10000\",\r\n    \"age\": \"22\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a3490735-02c3-4abe-b95d-74ba5e436619",
+            "colId": "b0cd7caf-7907-4fa3-b73e-6a40c1927d56",
+            "containerId": "",
+            "name": "Delete data by id",
+            "url": "http://localhost:441/raw-php-api/?id=15",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-06-09T13:43:47.542Z",
+            "modified": "2024-06-09T13:45:17.817Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "15",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "938cff83-e613-41c8-a5f8-8931f7976cda",
+            "colId": "b0cd7caf-7907-4fa3-b73e-6a40c1927d56",
+            "containerId": "",
+            "name": "Update data by id",
+            "url": "http://localhost:441/raw-php-api/?id=1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-06-09T13:46:38.786Z",
+            "modified": "2024-06-09T13:49:03.076Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"abdur\",\n  \"city\":\"Ranpur\",\n  \"salary\":\"2000\",\n  \"age\":\"20\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "Je1UiW8-RZNrRvg93HyjTQE77BQkS5tQsBXi4bffB62hGVDEzqNs3_bRWuvN85cOlPiCkVeq3OoHcZVgE3jiWA"
+}
